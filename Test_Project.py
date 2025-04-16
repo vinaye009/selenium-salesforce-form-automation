@@ -73,7 +73,7 @@ class SalesforceSignupTest:
         check_box.click()
         self.wait_for()
 
-        # Click Submit
+        # Click Submit button
         submit = driver.find_element(By.XPATH, "//button[normalize-space()='Submit']")
         submit.click()
         self.wait_for(2)
