@@ -81,6 +81,6 @@ class SalesforceSignupTest:
         driver.quit()
 
 
-# Run the Test
+# Run the Test.
 test = SalesforceSignupTest()
 test.submit_form()
